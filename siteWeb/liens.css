@@ -1,0 +1,345 @@
+@font-face {
+font-family: "Orkney";
+src: url("font/orkney/OrkneyBold.eot");
+src:
+url("font/orkney/OrkneyBold.woff") format("woff"),
+url("font/orkney/OrkneyBold.otf") format("opentype"),
+}
+@@font-face {
+  font-family: "Ailerons";
+  src : url("font/Ailerons-Typeface.otf") ;
+}
+
+
+@font-face {
+    font-family: 'aileronsregular';
+    src: url('font/ailerons/ailerons-typeface-webfont.woff2') format('woff2'),
+         url('font/ailerons/ailerons-typeface-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'abelregular';
+    src: url('font/abel/web_fonts/abel_regular_macroman/abel-regular-webfont.eot');
+    src: url('font/abel/web_fonts/abel_regular_macroman/abel-regular-webfont.eot') format('embedded-opentype'),
+         url('font/abel/web_fonts/abel_regular_macroman/abel-regular-webfont.woff') format('woff'),
+         url('font/abel/web_fonts/abel_regular_macroman/abel-regular-webfont.ttf') format('truetype'),
+         url('font/abel/web_fonts/abel_regular_macroman/abel-regular-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'spectralregular';
+    src: url('font/spectral/spectral-regular-webfont.woff2') format('woff2'),
+         url('font/spectral/spectral-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'moonlight';
+    src: url('font/moon/moon_light-webfont.woff2') format('woff2'),
+         url('font/moon/moon_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'nature_spiritregular';
+    src: url('font/nature/naturespiritregular-webfont.woff2') format('woff2'),
+         url('font/nature/naturespiritregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'arvoregular';
+    src: url('font/arvo/arvo-regular-webfont.woff2') format('woff2'),
+         url('font/arvo/arvo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'arvoitalic';
+    src: url('font/arvo/arvo-italic-webfont.woff2') format('woff2'),
+         url('font/arvo/arvo-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'arvobold_italic';
+    src: url('font/arvo/arvo-bolditalic-webfont.woff2') format('woff2'),
+         url('font/arvo/arvo-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'arvobold';
+    src: url('font/arvo/arvo-bold-webfont.woff2') format('woff2'),
+         url('font/arvo/arvo-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+body
+{
+  margin: 0px;
+  background-color: white;
+  font-family: "abelregular";
+  color: black;
+
+}
+
+.premiere_ligne
+{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  align-items: flex-start;
+  display: flex;
+}
+
+.title_first h1
+{
+  font-family: 'aileronsregular';
+  font-weight: bold;
+  margin : 0 0 0 10px;
+  font-size: 2.5em;
+}
+
+.title_first a
+{
+  text-decoration: none;
+  color: white;
+  transition : all 0.8s ease;
+}
+
+.title_first a:hover
+{
+  color: black;
+}
+
+nav a
+{
+  color : white;
+  text-decoration: none;
+}
+header ul
+{
+  font-family: 'arvobold';
+  font-style: normal;
+  font-size: 1.1em;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20%;
+}
+
+.ligne_under_header
+{
+  width: 100%;
+  top: 11%;
+  position: absolute;
+  border : 1px solid white;
+  background-color: white;
+
+}
+
+header li
+{
+  margin-right: 15%;
+  font-size: 1.3em;
+  width: 100%;
+
+}
+
+
+nav a:hover
+{
+  text-decoration: underline;
+  transition : all 0.5s ease;
+  color: black;
+}
+
+
+header
+{
+    font-family: "arvobold";
+    height: 100%;
+    width : 100%;
+}
+
+
+header img
+{
+  width: 100%;
+  height: 100%;
+  position:absolute;
+}
+
+.title_text
+{
+  font-family: 'arvobold';
+  font-size: 1.5em;
+  position:absolute;
+  bottom: 65%;
+  left: 40%;
+  color: white;
+}
+
+.espace_first
+{
+  height: 1000px;
+  display: block;
+}
+
+.line_under_infos
+{
+  width: 50px;
+  margin: auto;
+  border : 1px solid black;
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+
+
+main
+{
+  padding-top: 50%;
+}
+
+.display_flex
+{
+  display: flex;
+  font-size: 1.3em;
+  margin-bottom: 50px;
+}
+
+.display_flex img
+{
+  width:300px;
+  height: 200px;
+  border-radius: 20px;
+  margin: auto;
+  display: block;
+}
+
+.text
+{
+  width: 80%;
+}
+.text
+{
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+.button_site a
+{
+  text-decoration: none;
+  color: white;
+  background-image: url(images/fond_degrade_vert.jpg);
+  border-radius: 10px;
+}
+
+.button_site a:hover
+{
+  text-decoration: underline;
+}
+
+.button_site
+{
+  font-size: 1.5em;
+}
+
+#text2 img
+{
+  width: 150px;
+}
+
+.image
+{
+  height : 800px;
+  background-image: url(images/ara-3601194_1280.jpg);
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-position:center center;
+  background-size: 100%;
+
+}
+.image1
+{
+  height : 800px;
+  background-image: url(images/cameleon.jpg);
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-position:center center;
+  background-size: 100%;
+
+}
+
+.contrat h2
+{
+  padding-top: 50px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  font-size: 3em;
+}
+
+.contrat p
+{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 80%;
+  margin: auto;
+  text-align: justify;
+  font-size: 1.3em;
+  line-height: 30px;
+
+}
+
+footer
+{
+  display: flex;
+  justify-content: space-around;
+  background-image: url(images/fond_degrade_vert.jpg);
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-position:center center;
+  background-size: 100%;
+}
+footer p
+{
+  font-family: "abelregular";
+  color: white;
+  font-size: 1.2rem;
+}
+
+.arrow-up {
+  margin-top: 1.5rem;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid white;
+}
+
+footer a:hover
+{
+  margin-top: 1px;
+
+}

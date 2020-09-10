@@ -1,0 +1,364 @@
+@font-face {
+font-family: "Orkney";
+src: url("font/orkney/OrkneyBold.eot");
+src:
+url("font/orkney/OrkneyBold.woff") format("woff"),
+url("font/orkney/OrkneyBold.otf") format("opentype"),
+}
+@@font-face {
+  font-family: "Ailerons";
+  src : url("font/Ailerons-Typeface.otf") ;
+}
+
+
+@font-face {
+    font-family: 'aileronsregular';
+    src: url('font/ailerons/ailerons-typeface-webfont.woff2') format('woff2'),
+         url('font/ailerons/ailerons-typeface-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'abelregular';
+    src: url('font/abel/web_fonts/abel_regular_macroman/abel-regular-webfont.eot');
+    src: url('font/abel/web_fonts/abel_regular_macroman/abel-regular-webfont.eot') format('embedded-opentype'),
+         url('font/abel/web_fonts/abel_regular_macroman/abel-regular-webfont.woff') format('woff'),
+         url('font/abel/web_fonts/abel_regular_macroman/abel-regular-webfont.ttf') format('truetype'),
+         url('font/abel/web_fonts/abel_regular_macroman/abel-regular-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'spectralregular';
+    src: url('font/spectral/spectral-regular-webfont.woff2') format('woff2'),
+         url('font/spectral/spectral-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'moonlight';
+    src: url('font/moon/moon_light-webfont.woff2') format('woff2'),
+         url('font/moon/moon_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'nature_spiritregular';
+    src: url('font/nature/naturespiritregular-webfont.woff2') format('woff2'),
+         url('font/nature/naturespiritregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'arvoregular';
+    src: url('font/arvo/arvo-regular-webfont.woff2') format('woff2'),
+         url('font/arvo/arvo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'arvoitalic';
+    src: url('font/arvo/arvo-italic-webfont.woff2') format('woff2'),
+         url('font/arvo/arvo-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'arvobold_italic';
+    src: url('font/arvo/arvo-bolditalic-webfont.woff2') format('woff2'),
+         url('font/arvo/arvo-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'arvobold';
+    src: url('font/arvo/arvo-bold-webfont.woff2') format('woff2'),
+         url('font/arvo/arvo-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+body
+{
+  margin: 0px;
+  background-image: url(images/fond_degrade_vert.jpg);
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-position:center center;
+  background-size: 100%;
+  font-family: "abelregular";
+  color: white;
+
+}
+
+.premiere_ligne
+{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  align-items: flex-start;
+  display: flex;
+}
+
+.title_first h1
+{
+  font-family: 'aileronsregular';
+  font-weight: bold;
+  margin : 0 0 0 10px;
+  font-size: 2.5em;
+}
+
+.title_first a
+{
+  text-decoration: none;
+  color: white;
+  transition : all 0.8s ease;
+}
+
+.title_first a:hover
+{
+  color: black;
+}
+
+nav a
+{
+  color : white;
+  text-decoration: none;
+}
+header ul
+{
+  font-family: 'arvobold';
+  font-style: normal;
+  font-size: 1.1em;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20%;
+}
+
+.ligne_under_header
+{
+  width: 100%;
+  top: 11%;
+  position: absolute;
+  border : 1px solid white;
+  background-color: white;
+
+}
+
+header li
+{
+  margin-right: 15%;
+  font-size: 1.3em;
+  width: 100%;
+
+}
+
+
+nav a:hover
+{
+  text-decoration: underline;
+  transition : all 0.5s ease;
+  color: black;
+}
+
+
+header
+{
+    font-family: "arvobold";
+    height: 100%;
+    width : 100%;
+}
+
+
+header img
+{
+  width: 100%;
+  height: 100%;
+  position:absolute;
+}
+
+.title_text
+{
+  font-family: 'arvobold';
+  font-size: 1.5em;
+  position:absolute;
+  bottom: 60%;
+  left: 35%;
+  color: white;
+}
+
+main
+{
+  padding-top: 600px;
+}
+
+
+
+.line_under_infos
+{
+  width: 50px;
+  margin: auto;
+  border : 1px solid black;
+  background-color: black;
+  margin-bottom: 50px;
+  margin-top: 50px;
+
+}
+
+.image
+{
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+
+.image img
+{
+  margin: auto;
+  display: block;
+  border-radius: 10px;
+  width: 500px;
+  height: 300px;
+
+}
+main
+{
+  color:black;
+  background-color: white;
+
+}
+main h2
+{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-size: 3em;
+}
+
+.display_flex
+{
+  display: flex;
+}
+
+.display_flex hr
+{
+  height: 10px;
+  border : 0px solid black;
+}
+
+.display_flex .text1
+{
+  width: 50%;
+}
+
+.gras
+{
+  width:50%;
+  margin:auto;
+  color: black;
+  font-weight: bold;
+  font-size: 1.9rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+main p
+{
+
+  width: 80%;
+  text-align: justify;
+  font-size: 1.5em;
+  margin: auto;
+}
+
+.meteorite
+{
+  height:500px;
+  background-image: url(images/bacteria-106583_1280.jpg);
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-position:center center;
+  background-size: 100%;
+}
+
+.bacteries1 .line_under_infos
+{
+  border : 1px solid black;
+}
+
+.text1, .last_text
+{
+  line-height: 35px;
+}
+
+
+.bacteries1 .meteorite
+{
+  height: 1000px;
+  background-image: url(images/wingsuit.jpg);
+}
+
+.bacteries2 .meteorite
+{
+  height: 500px;
+  background-image: url(images/meteorite.jpg);
+}
+
+.bacteries3 .meteorite
+{
+  height: 1000px;
+  background-image: url(images/rubbish-143465_1280.jpg);
+}
+
+
+.last_text
+{
+  height: 300px;
+}
+
+
+footer
+{
+  display: flex;
+  justify-content: space-around;
+  background-image: url(images/fond_degrade_vert.jpg);
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-position:center center;
+  background-size: 100%;
+}
+footer p
+{
+  font-family: "abelregular";
+  color: white;
+  font-size: 1.2rem;
+}
+
+.arrow-up {
+  margin-top: 1.5rem;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid white;
+}
+
+footer a:hover
+{
+  margin-top: 1px;
+
+}
